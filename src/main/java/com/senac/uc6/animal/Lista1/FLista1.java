@@ -30,6 +30,8 @@ public class FLista1 {
         }else if (sexo == 2){
             pesoIdeal = (float) ((72.7 * altura) - 44.7);
             System.out.println("Peso ideal Masculino = " + pesoIdeal);
+        } else{
+            System.out.println("Digite: 1-Feminino e 2-Masculino:");
         }
 
     }
